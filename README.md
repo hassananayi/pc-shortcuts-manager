@@ -59,7 +59,7 @@ An **Electron.js** app that lets you create flexible shortcuts with **one or mul
 ---
 
 ## 🛠 Tech Stack  
-- **Electron.js** (cross-platform UI)  
+- **Electron.js** (UI)  
 - **Powershell** (backend automation)  
 
 ---
@@ -81,18 +81,10 @@ An **Electron.js** app that lets you create flexible shortcuts with **one or mul
 
 ## 📥 Installation  
 
-### End Users
 1. Download from [Releases](#)
 2. Run installer
 3. Launch and create shortcuts!
 
-### Developers
-```bash
-git clone https://github.com/hassananayi/pc-shortcuts-manager.git
-cd pc-shortcuts-manager
-npm install
-npm start
-```
 
 ---
 
