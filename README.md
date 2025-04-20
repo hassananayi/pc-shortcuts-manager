@@ -61,3 +61,17 @@ git clone https://github.com/hassananayi/pc-shortcuts-manager.git
 cd pc-shortcuts-manager
 npm install
 npm start
+
+
+## 📜 License
+
+**PC Shortcuts Manager** is released under the **MIT License**, a permissive open-source license that allows free use, modification, and distribution.  
+
+### **Permissions** ✅  
+- Use commercially (private or business).  
+- Modify and redistribute.  
+- Include in proprietary software.  
+
+### **Limitations** ⚠️  
+- No liability/warranty provided.  
+- Must include original license/copyright notice. 
