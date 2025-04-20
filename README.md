@@ -13,22 +13,22 @@ An **open-source Electron.js** app that lets you create flexible shortcuts with 
 </a>
 
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;">
-  <a href="./screenshots/homepage.png" target="_blank" onclick="document.getElementById('main-screenshot').src='./screenshots/homepage.png'; document.getElementById('main-screenshot-link').href='./screenshots/homepage.png'; document.querySelectorAll('.thumbnail-link img').forEach(img => img.style.borderColor='#ddd'); this.querySelector('img').style.borderColor='#4CAF50'; return true">
+  <a href="./screenshots/homepage.png" target="_blank" >
     <img src="./screenshots/homepage.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #4CAF50; border-radius:3px; cursor:pointer;">
   </a>
-  <a href="./screenshots/spotlight.png" target="_blank" class="thumbnail-link" onclick="document.getElementById('main-screenshot').src='./screenshots/spotlight.png'; document.getElementById('main-screenshot-link').href='./screenshots/spotlight.png'; document.querySelectorAll('.thumbnail-link img').forEach(img => img.style.borderColor='#ddd'); this.querySelector('img').style.borderColor='#4CAF50'; return true">
+  <a href="./screenshots/spotlight.png" target="_blank" class="thumbnail-link" >
     <img src="./screenshots/spotlight.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
   </a>
-  <a href="./screenshots/builder.png" target="_blank" class="thumbnail-link" onclick="document.getElementById('main-screenshot').src='./screenshots/builder.png'; document.getElementById('main-screenshot-link').href='./screenshots/builder.png'; document.querySelectorAll('.thumbnail-link img').forEach(img => img.style.borderColor='#ddd'); this.querySelector('img').style.borderColor='#4CAF50'; return true">
+  <a href="./screenshots/builder.png" target="_blank" class="thumbnail-link" >
     <img src="./screenshots/builder.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
   </a>
-  <a href="./screenshots/widget.png" target="_blank" class="thumbnail-link" onclick="document.getElementById('main-screenshot').src='./screenshots/widget.png'; document.getElementById('main-screenshot-link').href='./screenshots/widget.png'; document.querySelectorAll('.thumbnail-link img').forEach(img => img.style.borderColor='#ddd'); this.querySelector('img').style.borderColor='#4CAF50'; return true">
+  <a href="./screenshots/widget.png" target="_blank" class="thumbnail-link">
     <img src="./screenshots/widget.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
   </a>
-  <a href="./screenshots/widget2.png" target="_blank" class="thumbnail-link" onclick="document.getElementById('main-screenshot').src='./screenshots/widget2.png'; document.getElementById('main-screenshot-link').href='./screenshots/widget2.png'; document.querySelectorAll('.thumbnail-link img').forEach(img => img.style.borderColor='#ddd'); this.querySelector('img').style.borderColor='#4CAF50'; return true">
+  <a href="./screenshots/widget2.png" target="_blank" class="thumbnail-link" >
     <img src="./screenshots/widget2.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
   </a>
-  <a href="./screenshots/settings.png" target="_blank" class="thumbnail-link" onclick="document.getElementById('main-screenshot').src='./screenshots/settings.png'; document.getElementById('main-screenshot-link').href='./screenshots/settings.png'; document.querySelectorAll('.thumbnail-link img').forEach(img => img.style.borderColor='#ddd'); this.querySelector('img').style.borderColor='#4CAF50'; return true">
+  <a href="./screenshots/settings.png" target="_blank" class="thumbnail-link" o>
     <img src="./screenshots/settings.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
   </a>
 </div>
