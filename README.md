@@ -10,7 +10,7 @@ An **open-source Electron.js** app that lets you create flexible shortcuts with 
 
 ### 🔥 **Multi-Action Shortcuts**  
 - Chain **Powershell scripts, keystrokes, OCR, file operations**, and more into a single shortcut.  
-- Built-in **PowerFly actions** (OCR, script execution, keystroke emulation).  
+- Built-in **powerful actions** (OCR, script execution, keystroke emulation).  
 
 ### 🚀 **Multiple Trigger Methods**  
 - **Hotkeys** (global/system-wide).  
