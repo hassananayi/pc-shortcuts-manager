@@ -12,24 +12,24 @@ An **open-source Electron.js** app that lets you create flexible shortcuts with 
   <img id="main-screenshot" src="./screenshots/homepage.png" alt="Main Interface" style="max-width:100%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 10px;">
 </a>
 
-<div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;">
-  <a href="#" onclick="document.getElementById('main-screenshot').src='./screenshots/homepage.png'; return false;">
-    <img src="./screenshots/homepage.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #4CAF50; border-radius:3px; cursor:pointer;">
+<div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;">
+  <a href="./screenshots/homepage.png" onclick="event.preventDefault(); document.getElementById('main-screenshot').src='./screenshots/homepage.png'; document.querySelectorAll('.thumbnail-img').forEach(img => img.style.borderColor='#ddd'); this.querySelector('img').style.borderColor='#4CAF50'">
+    <img src="./screenshots/homepage.png" class="thumbnail-img" style="width:120px; height:80px; object-fit:cover; border: 2px solid #4CAF50; border-radius:3px; cursor:pointer;">
   </a>
-    <a href="#" onclick="document.getElementById('main-screenshot').src='./screenshots/spotlight.png'; return false;">
-    <img src="./screenshots/spotlight.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
+  <a href="./screenshots/spotlight.png" onclick="event.preventDefault(); document.getElementById('main-screenshot').src='./screenshots/spotlight.png'; document.querySelectorAll('.thumbnail-img').forEach(img => img.style.borderColor='#ddd'); this.querySelector('img').style.borderColor='#4CAF50'">
+    <img src="./screenshots/spotlight.png" class="thumbnail-img" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
   </a>
-  <a href="#" onclick="document.getElementById('main-screenshot').src='./screenshots/builder.png'; return false;">
-    <img src="./screenshots/builder.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
+  <a href="./screenshots/builder.png" onclick="event.preventDefault(); document.getElementById('main-screenshot').src='./screenshots/builder.png'; document.querySelectorAll('.thumbnail-img').forEach(img => img.style.borderColor='#ddd'); this.querySelector('img').style.borderColor='#4CAF50'">
+    <img src="./screenshots/builder.png" class="thumbnail-img" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
   </a>
-  <a href="#" onclick="document.getElementById('main-screenshot').src='./screenshots/widget.png'; return false;">
-    <img src="./screenshots/widget.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
+  <a href="./screenshots/widget.png" onclick="event.preventDefault(); document.getElementById('main-screenshot').src='./screenshots/widget.png'; document.querySelectorAll('.thumbnail-img').forEach(img => img.style.borderColor='#ddd'); this.querySelector('img').style.borderColor='#4CAF50'">
+    <img src="./screenshots/widget.png" class="thumbnail-img" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
   </a>
-    <a href="#" onclick="document.getElementById('main-screenshot').src='./screenshots/widget2.png'; return false;">
-    <img src="./screenshots/widget2.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
+  <a href="./screenshots/widget2.png" onclick="event.preventDefault(); document.getElementById('main-screenshot').src='./screenshots/widget2.png'; document.querySelectorAll('.thumbnail-img').forEach(img => img.style.borderColor='#ddd'); this.querySelector('img').style.borderColor='#4CAF50'">
+    <img src="./screenshots/widget2.png" class="thumbnail-img" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
   </a>
-  <a href="#" onclick="document.getElementById('main-screenshot').src='./screenshots/settings.png'; return false;">
-    <img src="./screenshots/settings.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
+  <a href="./screenshots/settings.png" onclick="event.preventDefault(); document.getElementById('main-screenshot').src='./screenshots/settings.png'; document.querySelectorAll('.thumbnail-img').forEach(img => img.style.borderColor='#ddd'); this.querySelector('img').style.borderColor='#4CAF50'">
+    <img src="./screenshots/settings.png" class="thumbnail-img" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
   </a>
 </div>
 
@@ -111,16 +111,4 @@ npm start
 
 <small>✨ Tip: Click thumbnails to view different screenshots!</small>
 
-<script>
-// Simple screenshot toggler
-document.querySelectorAll('.thumbnail-gallery a').forEach(link => {
-  link.addEventListener('click', function(e) {
-    // Remove active class from all
-    document.querySelectorAll('.thumbnail-gallery img').forEach(img => {
-      img.style.borderColor = '#ddd';
-    });
-    // Add to clicked
-    this.querySelector('img').style.borderColor = '#4CAF50';
-  });
-});
-</script>
+
