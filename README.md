@@ -96,10 +96,9 @@ npm start
 
 ---
 
-## 📜 License
-
-Copyright (c) 2025 Hassan ABBAS. All Rights Reserved.  
-This software is proprietary and confidential. Unauthorized use, copying, or distribution is prohibited.  
+## 📜 License  
+This app is **free for non-commercial use** (personal/educational).  
+**Commercial use requires a paid license.** [Contact me](mailto:hassananayi@email.com).  
 
 ---
 
