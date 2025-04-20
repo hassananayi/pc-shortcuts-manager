@@ -57,7 +57,7 @@ An **open-source Electron.js** app that lets you create flexible shortcuts with 
 
 ```bash
 # For developers (build from source):
-git clone https://github.com/your-repo/pc-shortcuts-manager.git
+git clone https://github.com/hassananayi/pc-shortcuts-manager.git
 cd pc-shortcuts-manager
 npm install
 npm start
