@@ -2,7 +2,7 @@
 
 **Automate Windows workflows with powerful, multi-action shortcuts!**  
 
-An **Electron.js** app that lets you create flexible shortcuts with **one or multiple actions**—triggerable via hotkeys, widgets, HTTP requests, and more. Perfect for power users and automation lovers!  
+An **Windows** app that lets you create flexible shortcuts with **one or multiple actions**—triggerable via hotkeys, widgets, HTTP requests, and more. Perfect for power users and automation lovers!  
 
 ---
 
