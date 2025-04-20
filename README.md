@@ -2,7 +2,7 @@
 
 **Automate Windows workflows with powerful, multi-action shortcuts!**  
 
-An **open-source Electron.js** app that lets you create flexible shortcuts with **one or multiple actions**—triggerable via hotkeys, widgets, HTTP requests, and more. Perfect for power users and automation lovers!  
+An **Electron.js** app that lets you create flexible shortcuts with **one or multiple actions**—triggerable via hotkeys, widgets, HTTP requests, and more. Perfect for power users and automation lovers!  
 
 ---
 
@@ -96,16 +96,10 @@ npm start
 
 ---
 
-## 📜 License (MIT)
+## 📜 License
 
-**Permissions** ✅  
-- Use commercially  
-- Modify and redistribute  
-- Include in proprietary software  
-
-**Limitations** ⚠️  
-- No liability/warranty  
-- Must include original license  
+Copyright (c) 2025 Hassan ABBAS. All Rights Reserved.  
+This software is proprietary and confidential. Unauthorized use, copying, or distribution is prohibited.  
 
 ---
 
