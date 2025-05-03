@@ -25,9 +25,6 @@ An **Windows** app that lets you create flexible shortcuts with **one or multipl
   <a href="./screenshots/widget.png" target="_blank" class="thumbnail-link">
     <img src="./screenshots/widget.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
   </a>
-  <a href="./screenshots/widget2.png" target="_blank" class="thumbnail-link" >
-    <img src="./screenshots/widget2.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
-  </a>
   <a href="./screenshots/settings.png" target="_blank" class="thumbnail-link" o>
     <img src="./screenshots/settings.png" style="width:120px; height:80px; object-fit:cover; border: 2px solid #ddd; border-radius:3px; cursor:pointer;">
   </a>
